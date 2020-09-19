@@ -1,0 +1,62 @@
+html{
+    background-color: #1c1b1b;
+}
+.heading{
+    display: inline-block;
+    position:absolute;
+    font-size: 50px;
+    color: white;
+    margin-left: 1070px;
+    margin-top: 100px;
+}
+.diceBack{
+    height: 740px;
+    width: 740px;
+}
+.container{
+    display: block;
+    position: relative;
+}
+.container a{
+    width: 350px;
+    height: 80px;
+    background-color:wheat;
+    text-decoration: none;
+    color: black;
+}
+.container a:hover{
+     background-color: #3c3c3c;
+     color: wheat;
+     transition: background-color 0.5s;
+}
+.container a:active{
+     background-color: #727272;
+     color: wheat;
+     transition: background-color 0.2s;
+}
+.diceBack,
+.container a {
+    position:absolute;
+    float: left;
+ }
+.button-2,
+.button-1 {
+    display: inline-block; 
+    margin-left: 1000px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 60px;
+    padding-top: 10px;
+       
+}
+.button-2 {
+    margin-top: 410px;/* 340 */
+    border: 5px solid orangered;
+}
+.button-1 {
+    margin-top: 270px;/* 200 */
+    border: 5px solid greenyellow;  
+}
+
+
+
