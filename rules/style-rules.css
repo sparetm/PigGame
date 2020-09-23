@@ -9,15 +9,24 @@ body{
     border-bottom: 5px solid #616dff;
     color: #e0e0e0; 
 }
-.column-1 div{
+.column-1 div,
+.column-3 div {
     color: #e0e0e0;
     font-size: 40px;
     text-align: justify-all;
     margin-left: 80px;
     margin-top: 0px;
   }
+
+.column-3 h1 {
+    display: inline-block;
+    font-size: 60px;
+    margin-top: 0px;
+    border-bottom: 5px solid #616dff;
+    color: green; 
+}
+.column-3 h1{ margin-left: 360px;}
 .column-2 a{
-    
      display: inline-block; 
     margin-left: 650px;
     text-align: center;
@@ -31,19 +40,12 @@ body{
     color: black;
      border: 5px solid greenyellow; 
 }
-.column-2 a:hover{
-    
-     
-    
+.column-2 a:hover{ 
     border: 5px solid green;
     background-color: #3c3c3c;
      color: wheat;
      transition: background-color 0.5s;
 }
-
-
-
-
 .column-2 a:active{
      background-color: #727272;
      color: wheat;
