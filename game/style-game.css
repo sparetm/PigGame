@@ -181,3 +181,31 @@ i {
 }
 
 
+
+/**********************************************
+*** WINNING-SCORE
+**********************************************/
+
+#winning-score{
+    width: 70px;
+    margin-left: 59px;
+    margin-top: 5px;
+    cursor: pointer;
+        
+
+}
+.set-winning-score div{
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: greenyellow;
+    font-weight: 600;
+}
+.set-winning-score{
+ 
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+
